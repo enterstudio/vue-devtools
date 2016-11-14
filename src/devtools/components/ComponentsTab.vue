@@ -40,7 +40,7 @@ export default {
   padding 10px 20px
   height 50px
   box-sizing border-box
-  border-bottom 1px solid #e3e3e3
+  border-bottom 1px solid #3c3c3c
 
 .material-icons
   display inline-block

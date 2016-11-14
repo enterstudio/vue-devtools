@@ -57,7 +57,7 @@ export default {
     width 0 !important
 
 .left
-  border-right 1px solid #e3e3e3
+  border-right 1px solid #3c3c3c
 
 .dragger
   position absolute

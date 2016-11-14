@@ -1,7 +1,7 @@
 <style lang="stylus" src="../global.styl"></style>
 
 <template>
-<div id="app" class="app">
+<div id="app" class="app -theme-with-dark-background platform-mac">
   <div class="header">
     <img class="logo" src="../assets/logo.png">
     <span class="message-container">
@@ -59,14 +59,13 @@ export default {
 
 <style lang="stylus" scoped>
 $header-height = 50px
-$border-color = #e3e3e3
+$border-color = #3c3c3c
 $blue = #44A1FF
 
 .app
   width 100%
   height 100%
   user-select none
-  background-color #fff
   h1
     color #42b983
 
@@ -112,7 +111,6 @@ $blue = #44A1FF
   line-height $header-height
   border-left 1px solid $border-color
   border-bottom 1px solid $border-color
-  background-color #fff
   font-size 13px
   color #666
   padding 0 22px 0 20px
